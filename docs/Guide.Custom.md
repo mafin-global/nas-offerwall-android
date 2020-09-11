@@ -20,7 +20,7 @@
     - [아이템 등록](#아이템-등록-nas-서버에서-적립금-관리-시-사용) _(NAS 서버에서 적립금 관리 시 사용)_
 - [🚀⠀SDK 연동](#-sdk-연동)
     - [라이브러리 추가](#라이브러리-추가)
-    - [AndroidManifest.xml 설정](#androidmanifest-xml-설정)
+    - [AndroidManifest.xml 설정](#androidmanifestxml-설정)
     - [초기화](#초기화)
     - [광고 목록 가져오기](#광고-목록-가져오기)
     - [광고 참여](#광고-참여)
