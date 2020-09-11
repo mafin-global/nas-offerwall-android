@@ -31,7 +31,7 @@
 - [`전체 업데이트 목록 보기`](Update.md)
 
 ## 👤️ 개발자/매체 등록
-[오퍼월 적용 가이드 문서](https://github.com/mafin-global/nas-offerwall) 를 참고해주세요.
+[오퍼월 적용 가이드 문서](https://github.com/mafin-global/nas-offerwall#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D) 를 참고해주세요.
 
 ## 🚀 SDK 연동
 

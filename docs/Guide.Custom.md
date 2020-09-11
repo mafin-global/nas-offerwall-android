@@ -41,7 +41,7 @@
 이런 경우, 광고 목록이 `차단` 당할 수 있으니 주의해 주시기 바랍니다.
 
 ## 👤️ 개발자/매체 등록
-[오퍼월 적용 가이드 문서](https://github.com/mafin-global/nas-offerwall) 를 참고해주세요.
+[오퍼월 적용 가이드 문서](https://github.com/mafin-global/nas-offerwall#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D) 를 참고해주세요.
 
 ## 🚀 SDK 연동
 
