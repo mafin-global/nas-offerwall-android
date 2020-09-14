@@ -21,7 +21,9 @@
     - [광고 상세 설명글](#광고-상세-설명글)
     - [적립금 조회](#적립금-조회-nas-서버에서-적립금-관리-시-사용) _(NAS 서버에서 적립금 관리 시 사용)_
     - [적립금 사용 (아이템 구매)](#적립금-사용-아이템-구매-nas-서버에서-적립금-관리-시-사용) _(NAS 서버에서 적립금 관리 시 사용)_
-    
+- [📖⠀다른 문서](-다른-문서)
+- [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
+
 ## 📝 업데이트
 - [`2020년 6월 20일`](Update.md#2020년-6월-20일)
     - 테스트 모드와 관련된 버그 수정
@@ -389,3 +391,11 @@ NASWall.purchaseItem(context, "아이템 ID", new OnPurchaseItemListener() {
     }
 });
 ```
+
+## 📖 다른 문서
+- [`내장 UI 개발 가이드`](Guide.Embed.md) : 미리 만들어진 UI를 사용하는 방식으로, 별도의 UI 개발 없이 쉽게 연동할 수 있습니다.
+- [`업데이트`](Update.md) : SDK 업데이트 정보를 제공합니다.
+
+## 🔗 다른 플렛폼 SDK
+- [`iOS SDK`](https://github.com/mafin-global/nas-offerwall-ios)
+- [`Unity SDK`](https://github.com/mafin-global/nas-offerwall-unity)
