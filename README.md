@@ -6,6 +6,8 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 - [`Unity SDK`](https://github.com/mafin-global/nas-offerwall-unity)
 
 ## 📝 업데이트
+- [`2020년 10월 5일`](docs/Update.md#2020년-10월-5일)
+    - USER_DATA 값 URL Encode 처리 (+ 문자 등이 포함되어 있을 때, 적립 콜백 호출 시 ud 값이 잘못 반환되는 문제 수정)
 - [`2020년 6월 26일`](docs/Update.md#2020년-6월-26일)
     - 테스트 모드와 관련된 버그 수정
 - [`2019년 10월 14일`](docs/Update.md#2019년-10월-14일)
