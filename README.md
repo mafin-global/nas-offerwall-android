@@ -26,5 +26,5 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 
 ## 📦 파일
 - [`/sdk`](sdk) : 최종 릴리즈 SDK 파일
-    - [`NASWall_xxxxxxxx.a`](sdk/NASWall_20200626.jar) : SDK 라이브러리 파일
+    - [`NASWall_xxxxxxxx.jar`](sdk) : SDK 라이브러리 파일
 - [`/example`](example) : 예제 소스
