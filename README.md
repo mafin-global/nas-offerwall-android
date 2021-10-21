@@ -6,6 +6,8 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 - [`Unity SDK`](https://github.com/mafin-global/nas-offerwall-unity)
 
 ## 📝 업데이트
+- [`2021년 10월 21일`](docs/Update.md#2021년-10월-21일)
+  - IMEI 수집 제거
 - [`2021년 6월 23일`](docs/Update.md#2021년-6월-23일)
   - 사용자 휴대폰번호 수집 제거
 - [`2020년 10월 5일`](docs/Update.md#2020년-10월-5일)
