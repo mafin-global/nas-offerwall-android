@@ -55,9 +55,15 @@
 > ```
 
 ### `AndroidManifest.xml 설정`
-`AndroidManifest.xml` 에 다음 권한을 추가합니다.
+`AndroidManifest.xml` 에 다음 항목을 추가합니다.
 
 ```
+<queries>
+    <intent>
+        <action android:name="android.intent.action.MAIN" />
+    </intent>
+</queries>
+
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
