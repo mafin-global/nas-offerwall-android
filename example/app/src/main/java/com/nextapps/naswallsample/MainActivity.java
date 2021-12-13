@@ -92,8 +92,6 @@ public class MainActivity extends Activity {
 			ArrayList<String> permissionList = new ArrayList<String>();
 			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED)
 				permissionList.add(Manifest.permission.INTERNET);
-			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED)
-				permissionList.add(Manifest.permission.READ_PHONE_STATE);
 			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_WIFI_STATE) != PackageManager.PERMISSION_GRANTED)
 				permissionList.add(Manifest.permission.ACCESS_WIFI_STATE);
 			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) != PackageManager.PERMISSION_GRANTED)
