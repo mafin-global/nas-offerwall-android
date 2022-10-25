@@ -96,7 +96,7 @@
 `AndroidManifest.xml` 의 `application` 에 다음 정보를 추가합니다.
 ```
 <activity android:name="com.nextapps.naswall.NASWallBrowser" android:configChanges="keyboardHidden|orientation|screenSize">
-    <intent-filter>
+    <intent-filter tools:ignore="AppLinkUrlError”>
        <action android:name="android.intent.action.VIEW"/>
        <category android:name="android.intent.category.DEFAULT"/>
        <category android:name="android.intent.category.BROWSABLE" />
