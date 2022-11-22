@@ -23,6 +23,8 @@
 - [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- [`2022년 11월 22일`](Update.md#2022년-11월-22일)
+  - Android SDK 33 대응
 - [`2021년 11월 12일`](Update.md#2021년-11월-12일)
   - 일부폰에서 광고 참여 시 -99992 오류 발생하는 문제 수정
 - [`2021년 10월 21일`](Update.md#2021년-10월-21일)
@@ -86,7 +88,7 @@
 
 `AndroidManifest.xml` 의 `application` 에 다음 정보를 추가합니다.
 ```
-<activity android:name="com.nextapps.naswall.NASWallBrowser" android:configChanges="keyboardHidden|orientation|screenSize">
+<activity android:name="com.nextapps.naswall.NASWallBrowser" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize">
     <intent-filter tools:ignore="AppLinkUrlError”>
        <action android:name="android.intent.action.VIEW"/>
        <category android:name="android.intent.category.DEFAULT"/>
