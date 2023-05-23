@@ -25,6 +25,10 @@
 - [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- [`2023년 5월 24일`](Update.md#2023년-5월-24일)
+  - 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
+  - (필수) ACCESS_NETWORK_STATE 권한 추가 필요
+  - -9968, -9969 오류코드 추가
 - [`2022년 11월 22일`](Update.md#2022년-11월-22일)
     - Android SDK 33 대응
 - [`2021년 11월 12일`](Update.md#2021년-11월-12일)
@@ -80,6 +84,7 @@
 </queries>
 
 <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
@@ -238,6 +243,8 @@ NASWall.getAdList(context, userData, age, sex, new OnAdListListener() {
         - `-12` : 개발자 서버에서 적립금 관리하는 경우 사용자 ID를 지정했음 (초기화 시 사용자 ID를 지정하지 말아야함)
         - `-10001` : 광고 종료됨
         - `-20001` : 이미 참여 완료한 광고
+        - `-9968` : Wi-Fi 환경에서 참여 불가
+        - `-9969` : Wi-Fi 환경에서 참여 불가
         - `-99999` : 파라메터 오류
         - `그외` : 기타 오류
 
@@ -278,6 +285,10 @@ NASWall.joinAd(context, adInfo, new OnJoinAdListener() {
             break;
         case -20001:
             message += "이미 참여한 캠페인입니다.";
+            break;
+        case -9968:
+        case -9969:
+            message += "Wi-Fi 환경에서는 참여가 불가능합니다. Wi-Fi를 끄고 다시 시도해 주세요.";
             break;
         default:
             message += "캠페인에 참여할 수 없습니다.";

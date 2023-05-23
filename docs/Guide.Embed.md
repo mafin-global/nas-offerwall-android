@@ -23,6 +23,9 @@
 - [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- [`2023년 5월 24일`](Update.md#2023년-5월-24일)
+  - 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
+  - (필수) ACCESS_NETWORK_STATE 권한 추가 필요
 - [`2022년 11월 22일`](Update.md#2022년-11월-22일)
   - Android SDK 33 대응
 - [`2021년 11월 12일`](Update.md#2021년-11월-12일)
@@ -71,6 +74,7 @@
 </queries>
 
 <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 <uses-permission android:name="com.google.android.gms.permission.AD_ID" />

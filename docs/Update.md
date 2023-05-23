@@ -1,6 +1,11 @@
 # 📝 NAS 오퍼월 Android SDK 업데이트
 NAS 오퍼월 Android SDK의 업데이트 정보입니다.
 
+## `2023년 5월 24일`
+- 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
+- (필수) ACCESS_NETWORK_STATE 권한 추가 필요
+- (사용자 정의 UI) -9968, -9969 오류코드 추가
+
 ## `2022년 11월 22일`
 - Android SDK 33 대응
  
