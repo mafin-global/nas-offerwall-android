@@ -119,7 +119,7 @@ public class CustomWallActivity extends ListActivity {
 					break;
 				case -9968:
 				case -9969:
-					message += "Wi-Fi 환경에서는 참여가 불가능합니다.\nWi-Fi를 끄고 다시 시도해 주세요.";
+					message += "Wi-Fi 환경에서는 참여가 불가능한 광고입니다.\nWi-Fi를 끄고 다시 시도해 주세요.";
 					break;
 				default:
 					message += "캠페인에 참여할 수 없습니다.";
