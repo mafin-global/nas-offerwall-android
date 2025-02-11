@@ -98,8 +98,10 @@ public class MainActivity extends Activity {
 				permissionList.add(Manifest.permission.ACCESS_WIFI_STATE);
 			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.GET_ACCOUNTS) != PackageManager.PERMISSION_GRANTED)
 				permissionList.add(Manifest.permission.GET_ACCOUNTS);
+			if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED)
+				permissionList.add(Manifest.permission.READ_CONTACTS);
 			
-			if (permissionList.size() > 0) {
+			if (!permissionList.isEmpty()) {
 				String[] permissions = new String[permissionList.size()];
 				permissions = permissionList.toArray(permissions);
 				ActivityCompat.requestPermissions(this, permissions, PERMISSION_REQUEST_CODE);
