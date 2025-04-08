@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NasWallKitExample</string>
+    <string name="value_not_provided">값이 제공되지 않았습니다.</string>
+</resources>
