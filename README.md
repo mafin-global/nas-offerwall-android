@@ -8,6 +8,9 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 - [`Unity SDK`](https://github.com/mafin-global/nas-offerwall-unity)
 
 ## 📝 업데이트
+- `v2.0.1`
+  - 버그가 수정되었습니다.
+
 - `v2.0.0`
   - Major 버전 업데이트로 인해 연동 방식의 대대적인 변경이 있습니다.
   - Kotlin 기반의 코드로 변경되었습니다.

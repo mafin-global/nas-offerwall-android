@@ -13,7 +13,6 @@
 - [👤 개발자/매체 등록](#-개발자매체-등록)
 - [💾 설치하기](#-설치하기)
   - [NasWallKit 추가](#-NasWallKit-추가)
-  - [AndroidManifest.xml 설정](#-androidmanifestxml-설정)
 - [🚀 초기화](#-초기화)
   - [개발자 서버에서 적립금 관리 시](#-개발자-서버에서-적립금-관리-시)
   - [NAS 서버에서 적립금 관리 시](#-NAS-서버에서-적립금-관리-시)
@@ -41,6 +40,9 @@
 - [🔗⠀다른 플렛폼 SDK](#-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- `v2.0.1`
+  - 버그가 수정되었습니다.
+
 - `v2.0.0`
   - Major 버전 업데이트로 인해 연동 방식의 대대적인 변경이 있습니다.
   - Kotlin 기반의 코드로 변경되었습니다.
@@ -113,38 +115,6 @@ dependencies {
     implementation("kr.mafin:naswallkit:2.0.0")
 }
 ...
-```
-
-### 🔹 ***AndroidManifest.xml 설정***
-`AndroidManifest.xml`의 `manifest`에 권한을 추가합니다.
-
-```xml
-<manifest>
-    ...
-    <queries>
-        <intent>
-            <action android:name="android.intent.action.MAIN" />
-        </intent>
-    </queries>
-    
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-    ...
-</manifest>
-```
-
-`AndroidManifest.xml`의 `manifest`>`application` 에 activity 정보를 추가합니다.
-```xml
-<manifest>
-    ...
-    <application>
-        ...
-        <activity android:name="kr.mafin.naswallkit.NasWallActivity" android:exported="true" />
-    </application>
-</manifest>
 ```
 
 ## 🚀 초기화
