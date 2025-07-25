@@ -9,6 +9,9 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 - [Unity SDK](https://github.com/mafin-global/nas-offerwall-unity)
 
 ## 📝 업데이트
+- `v2.0.2`
+  - 팝업 오퍼월에서 특정 광고 참여 시 동작이 없이 참여가 되지 않는 문제가 수정되었습니다.
+
 - `v2.0.1`
   - 버그가 수정되었습니다.
 

@@ -36,6 +36,9 @@
 - [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- `v2.0.2`
+  - 팝업 오퍼월에서 특정 광고 참여 시 동작이 없이 참여가 되지 않는 문제가 수정되었습니다.
+
 - `v2.0.1`
   - 버그가 수정되었습니다.
 
@@ -97,7 +100,7 @@ groovy
 dependencies {
     ...
     // 추가
-    implementation "kr.mafin:naswallkit:2.0.1"
+    implementation "kr.mafin:naswallkit:2.0.2"
 }
 ...
 ```
@@ -108,7 +111,7 @@ kotlin
 dependencies {
     ...
     // 추가
-    implementation("kr.mafin:naswallkit:2.0.1")
+    implementation("kr.mafin:naswallkit:2.0.2")
 }
 ...
 ```
