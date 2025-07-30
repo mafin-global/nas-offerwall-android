@@ -202,6 +202,8 @@ NasWall.initializeNasServer(
 ### 🔹 *팝업 오퍼월*
 팝업 오퍼월(전체 화면)을 표시합니다.
 
+*❗ Compose Preview 상태에서는 참여할 수 없습니다. 또한 에뮬레이터에서도 참여할 수 없습니다.*
+
 ```kotlin
 fun openPopupOfferWall(
     activity: Activity,
@@ -233,6 +235,8 @@ NasWall.openPopupOfferWall(
 ```
 ### 🔹 *임베드 오퍼월*
 제공된 `UIView`에 임베드 오퍼월을 표시합니다.
+
+*❗ Compose Preview 상태에서는 참여할 수 없습니다. 또한 에뮬레이터에서도 참여할 수 없습니다.*
 
 ```kotlin
 fun embedOfferWall(
