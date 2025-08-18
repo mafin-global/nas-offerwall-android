@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "kr.mafin.naswallkitexample"
-        minSdk = 22
+        minSdk = 21
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -57,7 +57,7 @@ dependencies {
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
     implementation("androidx.compose.material:material-icons-extended")
 
-    implementation("kr.mafin:naswallkit:2.0.2")
+    implementation("kr.mafin:naswallkit:2.0.3")
 
     debugImplementation(libs.androidx.ui.tooling)
 }
