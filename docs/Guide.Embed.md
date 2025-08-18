@@ -103,7 +103,7 @@ groovy
 dependencies {
     ...
     // 추가
-    implementation "kr.mafin:naswallkit:2.0.2"
+    implementation "kr.mafin:naswallkit:2.0.3"
 }
 ...
 ```
@@ -114,7 +114,7 @@ kotlin
 dependencies {
     ...
     // 추가
-    implementation("kr.mafin:naswallkit:2.0.2")
+    implementation("kr.mafin:naswallkit:2.0.3")
 }
 ...
 ```
