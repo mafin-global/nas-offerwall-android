@@ -9,6 +9,9 @@ NAS 오퍼월 Android용 SDK 및 예제 프로그램을 제공합니다.
 - [Unity SDK](https://github.com/mafin-global/nas-offerwall-unity)
 
 ## 📝 업데이트
+- `v2.0.4`
+  - 16KB 페이지 크기가 지원됩니다.
+
 - `v2.0.3`
   - 최소 지원 SDK (minSdk) 버전이 22에서 21로 변경되었습니다.
 
