@@ -41,7 +41,7 @@
 
 ## 📝 업데이트
 - `v2.0.4`
-  - 16KB 페이지 크기가 지원됩니다.
+  - 16KB 페이지 크기를 지원합니다.
 
 - `v2.0.3`
   - 최소 지원 SDK (minSdk) 버전이 22에서 21로 변경되었습니다.  
@@ -110,7 +110,7 @@ groovy
 dependencies {
     ...
     // 추가
-    implementation "kr.mafin:naswallkit:2.0.3"
+    implementation "kr.mafin:naswallkit:2.0.4"
 }
 ...
 ```
@@ -121,7 +121,7 @@ kotlin
 dependencies {
     ...
     // 추가
-    implementation("kr.mafin:naswallkit:2.0.3")
+    implementation("kr.mafin:naswallkit:2.0.4")
 }
 ...
 ```
