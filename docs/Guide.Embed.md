@@ -36,6 +36,12 @@
 - [🔗⠀다른 플렛폼 SDK](-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- `v2.0.6`
+  - 난독화된 클래스명이 다른 라이브러리와 충돌하지 않도록 수정되었습니다.
+
+- `v2.0.5`
+  - C++ 기반 프로젝트 지원을 위해 Gradle Prefabs 설정이 추가되었습니다.
+
 - `v2.0.4`
   - 16KB 페이지 크기를 지원합니다.
 
@@ -106,7 +112,7 @@ groovy
 dependencies {
     ...
     // 추가
-    implementation "kr.mafin:naswallkit:2.0.4"
+    implementation "kr.mafin:naswallkit:2.0.6"
 }
 ...
 ```
@@ -117,7 +123,7 @@ kotlin
 dependencies {
     ...
     // 추가
-    implementation("kr.mafin:naswallkit:2.0.4")
+    implementation("kr.mafin:naswallkit:2.0.6")
 }
 ...
 ```
