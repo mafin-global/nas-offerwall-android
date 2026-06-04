@@ -57,7 +57,7 @@ dependencies {
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
     implementation("androidx.compose.material:material-icons-extended")
 
-    implementation("kr.mafin:naswallkit:2.0.7")
+    implementation("kr.mafin:naswallkit:2.0.8")
 
     debugImplementation(libs.androidx.ui.tooling)
 }

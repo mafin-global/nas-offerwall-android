@@ -40,6 +40,9 @@
 - [🔗⠀다른 플렛폼 SDK](#-다른-플렛폼-sdk)
 
 ## 📝 업데이트
+- `v2.0.8`
+  - 특정 환경 지원을 위해 수정되었습니다. (일반적인 환경은 업데이트 불필요)
+
 - `v2.0.7`
   - 일부 환경에서 SDK 초기화 시 비정상적으로 종료되는 문제가 수정되었습니다.
 
@@ -119,7 +122,7 @@ groovy
 dependencies {
     ...
     // 추가
-    implementation "kr.mafin:naswallkit:2.0.7"
+    implementation "kr.mafin:naswallkit:2.0.8"
 }
 ...
 ```
@@ -130,7 +133,7 @@ kotlin
 dependencies {
     ...
     // 추가
-    implementation("kr.mafin:naswallkit:2.0.7")
+    implementation("kr.mafin:naswallkit:2.0.8")
 }
 ...
 ```
